@@ -18,6 +18,6 @@ npm start
 docker build -t hello-world .
 
 # run your docker
-docker run -p 3000:3000 hello-world
+docker run -p 4000:4000 hello-world
 ```
 

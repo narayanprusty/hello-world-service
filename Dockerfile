@@ -14,10 +14,10 @@ COPY . /www
 WORKDIR /www
 
 # set your port
-ENV PORT 3000
+ENV PORT 4000
 
 # expose the port to outside world
-EXPOSE  3000
+EXPOSE  4000
 
 # start command as per package.json
 CMD ["npm", "start"]
